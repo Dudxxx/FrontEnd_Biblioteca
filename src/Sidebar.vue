@@ -4,12 +4,6 @@
       <nav>
         <ul class="space-y-2">
           <li>
-            <!-- Se desejar que "Browse" leve para outra rota, ajuste o "to" -->
-            <router-link to="/" class="block py-2 px-4 rounded hover:bg-gray-100">
-              Browse
-            </router-link>
-          </li>
-          <li>
             <router-link to="/books" class="block py-2 px-4 rounded hover:bg-gray-100">
               Books
             </router-link>
