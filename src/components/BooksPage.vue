@@ -6,8 +6,10 @@
     <!-- Conteúdo Principal -->
     <main class="flex-1 p-6">
       <!-- Filtros de pesquisa -->
-      <div class="flex flex-wrap items-center gap-2 mb-6">
-        <input
+      <div class="mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+          <h1 class="text-2xl font-bold">Livros</h1>
+          <div class="flex gap-2">
+            <input
           type="text"
           placeholder="Nome do livro"
           class="border rounded p-2 w-48"
@@ -37,8 +39,9 @@
         >
           Pesquisar
         </button>
-      </div>
-
+          </div>
+        </div>
+      
       <!-- Grid de livros -->
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         <div
