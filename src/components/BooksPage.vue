@@ -82,7 +82,7 @@ export default {
         {
           title: 'Educação, Tecnologia & Inovação 1',
           description: 'Descrição do livro 1',
-          imageUrl: 'https://via.placeholder.com/200x300?text=Book+Cover+1'
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJPueYGiy4Ttp2ZzbX-sjyDeQW5D3ieLLzrA&s'
         },
         {
           title: 'Educação, Tecnologia & Inovação 2',
