@@ -12,12 +12,12 @@
             <input
               type="text"
               placeholder="Nome Usuário"
-              class="border rounded p-2 w-48"
+              class="border rounded p-2 w-48 border-transparent bg-gray-100"
               v-model="searchName"
             />
             <button
               @click="handleFilter"
-              class="px-4 py-2 border rounded bg-gray-100 hover:bg-gray-200"
+              class="px-4 py-2 border rounded bg-gray-100 hover:bg-gray-200 border-transparent"
             >
               Filter
             </button>
